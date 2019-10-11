@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'hradba'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.google.guava:guava:28.1-jre'
+
+    testCompile 'junit:junit:4.12'
+}
